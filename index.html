@@ -1,0 +1,45 @@
+<htm<html>
+  <head>
+    <title>
+      fb
+    </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class ="screen">
+        <input type="text" id="screen">
+      </div>
+      <div class ="buttons">
+        <div class="row">
+          <button class="btn" onClick=changeClr(1)>1</button>
+          <button class="btn" onClick=changeClr(2)>2</button>
+          <button class="btn" onClick=changeClr(3)>3</button>
+          </div>
+        <div class="row">
+          <button class="btn" onClick=changeClr("+")>+</button>
+          <button class="btn" onClick=changeClr(4)>4</button>
+          <button class="btn" onClick=changeClr(5)>5</button>
+        </div>
+      <div class="row">
+          <button class="btn" onClick=changeClr(6)>6</button>
+          <button class="btn" onClick=changeClr("-")>-</button>
+          <button class="btn" onClick=changeClr(7)>7</button>
+      </div>
+      <div class="row">
+          <button class="btn" onClick=changeClr(8)>8</button>
+          
+          <button class="btn" onClick=changeClr(9)>9</button>
+          
+          <button class="btn" onClick=changeClr("/")>/</button>
+        </div>
+    
+      <div class="row">
+          <button class="btn" id="clear" onClick=clearScreen()>clear</button>
+          <button class="btn" onClick=changeClr(0)>0</button>
+          <button class="btn" onClick=textEval("=")>=</button>
+          <button class="btn" onclick=changeClr("*")>x</button>
+        </div>
+      </div>
+    </div>
